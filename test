@@ -1,0 +1,4 @@
+#define TEST(NAME) \
+foo "BLAH_"" #NAME"
+
+TEST(GARBLE)

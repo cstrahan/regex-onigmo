@@ -1,0 +1,4 @@
+#!/bin/sh
+
+onigmo=$(nix-build $HOME/src/nixpkgs -A onigmo)
+ghci -L$onigmo/lib and -lonig
